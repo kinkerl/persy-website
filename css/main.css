@@ -7,7 +7,7 @@ body{
 }
 
 #content{
-	margin: 100px auto;
+	margin: 50px auto;
 	padding-top: 50px;
 	width: 750px;
 	background: #333333;
@@ -36,10 +36,26 @@ img {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 5px;
-	background: #ddd;
+	background: #555;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+	font-weight: bold;
+	color: white;
 }
+
+.issues{
+	background: #73c466;
+}
+
+.contribute{
+	background: #c48966;
+}
+
+.documentation{
+	background: #66a2c4;
+}
+
+
 
 .element .pad{
 	padding: 10px;
@@ -77,4 +93,5 @@ img {
 
 #screenshot img{
 	float: right;
+	margin: 3px 10px;
 }

@@ -1,12 +1,16 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/prototype.js"></script>
+	<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
 	<title>persy</title>
 </head>
 <body>
 	<div id="content">
 		<div class="middelcol">
-			<img id="logo" src="img/logo.png" />
+			<img id="logo" src="images/logo.png" />
 			<br/>
 		</div>
 
@@ -30,7 +34,7 @@
 
 			<div  class="element" style="height: 112px">
 				<div class="pad">
-					Get it for Ubuntu <br/>
+					<p>Get it for Ubuntu</p>
 					<code>sudo add-apt-repository ppa:tmassassin/ppa</code><br/>
 					<code>sudo apt-get update</code><br/>
 					<code>sudo apt-get install persy</code>
@@ -43,17 +47,16 @@
 		<div class="rightcol">
 			<!--div class="element" style="background: #ecba78;"></div>
 			<div class="element" style="background: #ecba78;"></div-->
-			<div class="element"><a target='_blank' href="https://launchpad.net/persy"><div class="pad">Contribute</div></a></div>
-			<div class="element"><a target='_blank' href="https://bugs.launchpad.net/persy"><div class="pad">Issues</div></a></div>
-			<div class="element"><a target='_blank' href="http://kinkerl.github.com/persy/"><div class="pad">Documentation</div></a></div>
+			<div class="element contribute"><a target='_blank' href="http://github.com/kinkerl/persy"><div class="pad">Contribute (Source)</div></a></div>
+			<div class="element issues"><a target='_blank' href="https://bugs.launchpad.net/persy"><div class="pad">Issues</div></a></div>
+			<div class="element documentation"><a target='_blank' href="http://kinkerl.github.com/persy/"><div class="pad">Usage (Documentation)</div></a></div>
 				
 		</div>
 		<br class="clear" />
 		<div id="screenshot">
 			<strong>Screenshots</strong>:
-			<a href="img/logo.png"><img src="img/logo.png" height="75"></a>
-			<a href="img/logo.png"><img src="img/logo.png" height="75"></a>
-			<a href="img/logo.png"><img src="img/logo.png" height="75"></a>
+			<a rel="lightbox[screenshots]" href="images/screenshots/Screenshot.png"><img src="images/screenshots/Screenshot.png" height="75"></a>
+			<a rel="lightbox[screenshots]" href="images/screenshots/Screenshot2.png"><img src="images/screenshots/Screenshot2.png" height="75"></a>
 			<br class="clear" />
 		</div>
 	</div>
