@@ -4,6 +4,7 @@ body{
 	margin: 0px;
 	color: #333333;
 	font-size: 12px;
+	font-family:Verdana;
 }
 
 #content{
@@ -18,13 +19,6 @@ body{
 img { 
 	border : 0 none;
 }
-
-pre {
-	background: white;
-	padding: 2px;
-	border: 1px solid #ccc;
-}
-
 
 .middelcol{
 	float: left;
