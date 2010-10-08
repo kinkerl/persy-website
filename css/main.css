@@ -4,6 +4,7 @@ body{
 	margin: 0px;
 	color: #333333;
 	font-size: 10px;
+	font-family:Verdana;
 }
 
 #content{
@@ -19,8 +20,6 @@ img {
 	border : 0 none;
 }
 
-
-
 .middelcol{
 	float: left;
 	width: 50%;
@@ -31,16 +30,31 @@ img {
 	display: block;
 }
 
+
+
 .element{
 	height: 34px;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 5px;
-	background: #555;
+	background: #eceef5;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	font-weight: bold;
+	color: #222;
+}
+
+.rightcol .element{
 	color: white;
+}
+
+.facebook iframe{
+	margin-left: 10px;
+	margin-top: 7px;
+}
+
+.facebook{
+	background: #eceef5;
 }
 
 .issues{
